@@ -27,7 +27,7 @@ function Content() {
 							<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
 						</div>
 						<div className="modal-body">
-							<p>Ketimpa container</p>
+							<p>This is my first modal box</p>
 						</div>
 						<div className="modal-footer">
 							<button type="button" className="btn btn-secondary" data-bs-dismiss="modal">
