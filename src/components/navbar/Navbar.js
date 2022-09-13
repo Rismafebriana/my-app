@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <span className="nav-logo">QTEMU</span>
+      <span className="nav-logo">my-app</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/home">Home</a>
         <a href="/about">About</a>
