@@ -1,14 +1,17 @@
-import "./App.css";
-import Navbar from "./components/navbar/Navbar";
-import About from "./components/About";
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-      <About/>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<Header />
+			<div className="container">
+				<Content />
+			</div>
+			<Footer />
+		</>
+	);
+};
 
 export default App;
